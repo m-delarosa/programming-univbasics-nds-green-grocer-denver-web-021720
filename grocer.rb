@@ -114,7 +114,7 @@ i = 0
     i += 1
   end
 
-  if grand_total >= 100
+  if grand_total > 100
     grand_total = (grand_total * 0.9).round(2)
   end
 grand_total
